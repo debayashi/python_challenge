@@ -31,6 +31,11 @@ To process the file and get the geoip and rdap information:
 invoke run
 ```
 
+To just parse the file and populate the database with the ip's
+```
+invoke process-file
+```
+
 To detroy the enviroment
 ```
 invoke destroy
